@@ -25,13 +25,16 @@ body {
  height: 5rem;
 }
 
+
+
 .main-nav li a {
  display: block;
  text-transform: uppercase;
  color: #222;
  text-decoration: none;
- font-size: .8rem;
+ font-size: 1rem;
  font-weight: bold;
+ font-family: 'Forum';
 }
 
 
@@ -52,33 +55,34 @@ footer {
 .rodape {
  display: flex;
  flex-direction: row;
- flex-flow: row wrap;
+ background: #D71A1A;
+ padding: 10px;
  justify-content: space-between;
  align-items: center;
- background: #D71A1A;
- padding: 10px 30px 10px 30px;
 }
-
 .logo-rodape img {
- height: 4rem;
-}
-
-.icones-rodape li {
- display: block;
- flex-direction: row;
- flex-flow: row wrap;
- list-style: none;
+ height: 3.5rem;
 }
 
 .icones-rodape img {
- height: 1.3rem;
+ height: 1.5rem;
+}
+
+.icones-rodape ul {
+ list-style: none;
+}
+
+.icones-rodape li {
+ display: inline-block;
+ margin-left: 15px;
 }
 
 .copy p {
  display: flex;
- align-items: center;
- justify-content: center;
- font-size: .9rem;
- padding: 10px 30px 10px 30px;
  text-align: center;
+ justify-content: center;
+ align-items: center;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ font-size: .9rem;
 }
