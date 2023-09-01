@@ -1,0 +1,45 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-family: 'Forum';
+}
+
+.div.pai {
+ display: flex;
+ flex-direction: column;
+}
+
+.footer {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 10px 40px 10px 40px;
+background-color: #D71A1A;
+margin-top: 20rem; /*só pra separar do nav*/ 
+}
+
+.logo-menor , img {
+ height: 4rem;
+}
+
+.icones-footer ul {
+ display: flex;
+ flex-direction: row;
+ list-style: none;
+}
+
+.icones-footer li img {
+ height: 1.4rem;
+padding-left: 1rem;
+}
+
+.copy {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding-top: 1rem ;
+ padding-bottom: 1rem;
+ font-size: 1rem;
+
+}
