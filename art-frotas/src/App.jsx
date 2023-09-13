@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <Navbar/>
-      {/* <Carrousel/> */}
+      <Carrousel/>
       <Footer/>
     </Router>
   
