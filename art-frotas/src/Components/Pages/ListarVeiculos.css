@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.titulo-listar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Forum';
+  padding-top: 40px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.titulo-listar img {
+  height: 2rem;
+  padding-right: 1rem;
+}
+
+.div-pai-edit-veiculos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lista-veiculos-edit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.itens-lista-edit {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.30);
+  margin: 20px;
+  border-radius: 5px;
+  width: 600px;
+  list-style: none;
+}
+
+.campo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+.campo h4 {
+  font-family: 'Roboto';
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.campo p {
+  font-family: 'Roboto';
+  font-size: 1.1rem;
+  text-transform: capitalize;
+}
+
+.conj-botoes {
+  display: flex;
+  justify-content: row;
+  text-align: left;
+}
+
+.conj-botoes button {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #D71A1A;
+  font-family: 'Forum';
+  color: #FFF;
+  font-size: 17px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.30);
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.conj-botoes a {
+  text-decoration: none;
+}
+
+@media (max-width:698px) {
+  .titulo-listar {
+    font-size: 13px;
+  }
+
+  .titulo-listar img {
+    height: 1.6rem;
+    padding-right: 1rem;
+  }
+
+
+  .campo h4 {
+    font-size: .9rem;
+  }
+
+  .campo p {
+
+    font-size: .9rem;
+  }
+
+  .conj-botoes button {
+    width: 85px;
+    font-size: .9rem;
+  }
+}

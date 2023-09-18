@@ -37,14 +37,62 @@ body {
  letter-spacing: 2px;
 }
 
-.botao-login {
- background: #ecedf2;
- color: #222;
- border-radius: 10px;
- padding: 5px 10px 5px 10px;
-
+.botao-login button {
+ display: block;
+ width: 90px;
+ height: 30px;
+ border: none;
+ border-radius: 5px;
+ background-color: #ECEDF2;
+ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.30);
+ font-size: .9rem;
+ font-weight: bold;
+ font-family: 'Forum';
+ letter-spacing: 2px;
 }
 
-.botao-login:hover {
- background-color: #c2c0c0;
+.botao-login button a {
+ text-decoration: none;
+ text-transform: uppercase;
+ color: #222;
+}
+
+@media (max-width:698px) {
+ .main-nav img {
+  max-width: 100%;
+  height: 4rem;
+  
+ }
+
+ .main-nav li a {
+  font-size: 10px;
+ }
+
+ .botao-login {
+  width: 50px;
+  height: 30px;
+ }
+
+ .main-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px 10px 40px;
+  background: #D71A1A;
+  color: #222;
+  list-style: none;
+ }
+
+ .botao-login button {
+  width: 60px;
+  height: 25px;
+  font-size: .6rem;
+  font-family: 'Forum';
+  margin-left: 10px;
+  }
+ 
+ .main-nav li a {
+  margin-left: 7px;
+ }
 }

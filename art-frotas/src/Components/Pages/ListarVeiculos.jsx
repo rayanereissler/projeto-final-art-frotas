@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import './ListarVeiculos.css';
+import ModeloCarro from '../../assets/imagens/modelo.png';
 
 function ListarVeiculos() {
     const [vehicles, setVehicles] = useState([]);
@@ -16,18 +18,43 @@ function ListarVeiculos() {
     };
 
     return (
-        <div>
-            <h2>Lista de Veículos</h2>
-            <ul>
+        <div className='div-pai-edit-veiculos'>
+            <div className="titulo-listar">
+                <div><img src={ModeloCarro} /></div>
+                <h2>Lista de Veículos</h2>
+            </div>
+            <ul className='lista-veiculos-edit'>
                 {vehicles.map((veiculo, index) => (
-                    <li key={index}>
-                        Marca: {veiculo.marca}, Modelo: {veiculo.modelo}, Quantidade de portas: {veiculo.portas}, Tipo de carroceria: {veiculo.carroceria}
-                        <Link to={`/edit/${index}`}>
-                            <button>
-                                Editar
-                            </button>
-                        </Link>
-                        <button onClick={() => handleRemoveVehicle(index)}>Remover</button>
+                    <li className='itens-lista-edit' key={index}>
+                        <div className='campo'>
+                            <h4>Marca:</h4>
+                            <p>{veiculo.marca}</p>
+                        </div>
+
+                        <div className='campo'>
+                            <h4>Modelo:</h4>
+                            <p>{veiculo.modelo}</p>
+                        </div>
+
+                        <div className='campo'>
+                            <h4>Quantidade de portas: </h4>
+                            <p>{veiculo.portas}</p>
+                        </div>
+
+
+                        <div className='campo'>
+                            <h4>Tipo de carroceria:</h4>
+                            <p>{veiculo.carroceria}</p>
+                        </div>
+
+                        <div className='conj-botoes'>
+                            <Link to={`/edit/${index}`}>
+                                <button className='botao-remover-editar'>
+                                    Editar
+                                </button>
+                            </Link>
+                            <button className='botao-remover-editar' onClick={() => handleRemoveVehicle(index)}>Remover</button>
+                        </div>
                     </li>
                 ))}
             </ul>

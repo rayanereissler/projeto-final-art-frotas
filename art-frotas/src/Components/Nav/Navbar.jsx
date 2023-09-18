@@ -17,18 +17,14 @@ function Navbar() {
         </li>
         
         <li>
-          <Link to='/listar'>Listar Veículo</Link>
+          <Link to='/listar'>Lista</Link>
         </li>
         <li>
           <Link to='/add'>Adicionar Veículo</Link>
         </li>
-        <li>
-          <button className='botao-login'><Link to='/login'>Login</Link></button>
-              </li>
-
+        <div className='botao-login'><button><Link to='/login'>Login</Link></button></div>
       </ul>
-
-    </nav>
+      </nav>
   )
 }
 
