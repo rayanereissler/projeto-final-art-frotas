@@ -6,15 +6,25 @@ function Navbar() {
   return (
     <nav className='main-nav'>
       <ul className='nav-links'>
-        <li>
-          <Link to='#'>Home</Link>
-        </li>
-        <li>
+      <li>
           <Link><img src={ImagemLogoMaior} alt="logo do site" /></Link>
         </li>
         <li>
-          <Link to='#'>Login</Link>
+          <Link to='/'>Home</Link>
         </li>
+        <li>
+          <Link to='#'>Sobre</Link>
+        </li>
+        
+        <li>
+          <Link to='/listar'>Listar Veículo</Link>
+        </li>
+        <li>
+          <Link to='/add'>Adicionar Veículo</Link>
+        </li>
+        <li>
+          <button className='botao-login'><Link to='/login'>Login</Link></button>
+              </li>
 
       </ul>
 
