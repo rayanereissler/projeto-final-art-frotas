@@ -7,13 +7,11 @@ function Navbar() {
     <nav className='main-nav'>
       <ul className='nav-links'>
       <li>
-          <Link><img src={ImagemLogoMaior} alt="logo do site" /></Link>
+      <Link to='/'><img src={ImagemLogoMaior} alt="logo do site" /></Link>
         </li>
+        
         <li>
-          <Link to='/'>Home</Link>
-        </li>
-        <li>
-          <Link to='#'>Sobre</Link>
+          <Link to='/sobre'>Sobre</Link>
         </li>
         
         <li>
@@ -22,7 +20,10 @@ function Navbar() {
         <li>
           <Link to='/add'>Adicionar Veículo</Link>
         </li>
-        <div className='botao-login'><button><Link to='/criar-conta'>Login</Link></button></div>
+        <li>
+        <Link to='/criar-conta'>Cadastro</Link>
+        </li>
+        <div className='botao-login'><button><Link to='/login'>Login</Link></button></div>
       </ul>
       </nav>
   )

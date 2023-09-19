@@ -8,6 +8,7 @@ import EditarVeiculo from './Components/Pages/EditarVeiculo';
 import CriarConta from './Components/Pages/CriarConta';
 import Login from './Components/Pages/Login';
 import {Home} from './Components/Pages/Home';
+import Sobre from './Components/Pages/Sobre';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/criar-conta" element={<CriarConta />} />
         <Route path="/login" element={<Login />} />
         <Route path='/' element = {< Home />} />
+        <Route path='/sobre' element = {< Sobre />} />
       </Routes>
 
       <Footer />
