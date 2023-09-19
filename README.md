@@ -44,7 +44,7 @@ As principais características do site são:
 
 ## Licença  &#9745;&#65039;
 
-- [Licença MIT](https://github.com/AmigoBicho/Projeto-Amigo-Bicho/blob/main/LICENSE)
+- [Licença MIT](https://github.com/rayanereissler/projeto-final-art-frotas/blob/main/LICENSE)
 
 ## Quer testar? basta clicar aqui! &#128105;&#8205;&#128187;
 
