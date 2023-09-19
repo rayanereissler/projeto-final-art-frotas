@@ -19,65 +19,59 @@ function FormularioVeiculo() {
     }
 
     return (
-        <div>
-            <form className="div-pai-form" onSubmit={handleSubmit} >
+        <div className="div-pai-form"> 
+            <form  onSubmit={handleSubmit} >
                 <div className="titulo-add">
                     <div><img src={ModeloCarro} /></div>
                     <h2>Adicionar Veículos</h2>
                 </div>
                 
-                    <label className="label-form">
-                        Marca:
-                        <input className="input-form"
-                            type="text"
-                            name="marca"
-                            value={vehicle.marca}
-                            required
-                            onChange={(e) => setVehicle({ ...vehicle, marca: e.target.value })}
-                        />
-                    </label>
-                
-
-                
-                    <label className="label-form">
-                        Modelo:
-                        <input className="input-form"
-                            type="text"
-                            name="modelo"
-                            value={vehicle.modelo}
-                            required
-                            onChange={(e) => setVehicle({ ...vehicle, modelo: e.target.value })}
-                        />
-                    </label>
-                
-
-                
-                    <label className="label-form">
-                        Quantidade de portas:
-                        <input className="input-form"
-                            type="number"
-                            name="portas"
-                            value={vehicle.portas}
-                            required
-                            onChange={(e) => setVehicle({ ...vehicle, portas: e.target.value })}
-                        />
-                    </label>
-                
-
-                
-                    <label className="label-form">
-                        Tipo de carroceria:
-                        <input className="input-form"
-                            type="text"
-                            name="carroceria"
-                            value={vehicle.carroceria}
-                            required
-                            onChange={(e) => setVehicle({ ...vehicle, carroceria: e.target.value })}
-                        />
-                    </label>
+                    <div>
+                        <label className="label-form">
+                            Marca:
+                            <input className="input-form"
+                                type="text"
+                                name="marca"
+                                value={vehicle.marca}
+                                required
+                                onChange={(e) => setVehicle({ ...vehicle, marca: e.target.value })}
+                            />
+                        </label>
+                        <label className="label-form">
+                            Modelo:
+                            <input className="input-form"
+                                type="text"
+                                name="modelo"
+                                value={vehicle.modelo}
+                                required
+                                onChange={(e) => setVehicle({ ...vehicle, modelo: e.target.value })}
+                            />
+                        </label>
+                        <label className="label-form">
+                            Quantidade de portas:
+                            <input className="input-form"
+                                type="number"
+                                name="portas"
+                                value={vehicle.portas}
+                                required
+                                onChange={(e) => setVehicle({ ...vehicle, portas: e.target.value })}
+                            />
+                        </label>
+                        <label className="label-form">
+                            Tipo de carroceria:
+                            <input className="input-form"
+                                type="text"
+                                name="carroceria"
+                                value={vehicle.carroceria}
+                                required
+                                onChange={(e) => setVehicle({ ...vehicle, carroceria: e.target.value })}
+                            />
+                        </label>
+                    </div>
                 
 
                 <div className="botao-add-veiculo" ><button type="submit"> Adicionar Veículo </button></div>
+                
             </form>
         </div>
     )
