@@ -23,7 +23,7 @@
  padding: 30px 10px 30px 20px;
  border-radius: 10px 0px 0px 10px;
  align-items: center;
- margin-left: 40px;
+ margin-left: 60px;
  
 
 }
@@ -103,7 +103,7 @@ hr {
  height: 1100px;
  padding: 30px 10px 30px 20px;
  border-radius: 0px 10px 10px 0px;
- margin-right: 40px;
+ margin-right: 60px;
  
 }
 
@@ -119,6 +119,7 @@ hr {
  font-size: 1rem;
  letter-spacing: 2px;
  margin-bottom: 30px;
+ padding-right: 20px;
 }
 
 .div-img-dois {
@@ -179,6 +180,7 @@ hr {
 
  .div-dois p {
   font-size: .7rem;
+  padding-right: 0;
  }
 
  .div-img-dois img {
