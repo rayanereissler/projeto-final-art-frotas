@@ -1,0 +1,109 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+.div-pai-criar {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background-image: url('../../assets/imagens/faixa-decor.png');
+ background-size: cover;
+ /* Ajusta a imagem para cobrir todo o espaço da div */
+ background-position: center center;
+ /* Centraliza a imagem na div */
+ width: 100%;
+ height: 250px;
+ /* Defina a altura conforme necessário */
+ position: relative;
+ /* Define a posição como relativa para que a div sobreposta fique posicionada corretamente */
+}
+
+.element-pai {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ border-radius: 10px;
+ background-color: #fff;
+ /* Cor de fundo da outra div */
+ width: 80%;
+ margin: 60px auto;
+ /* Centraliza a div */
+ padding: 20px;
+ position: absolute;
+ /* Define a posição como absoluta para sobrepor à div com imagem de fundo */
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ /* Centraliza a div no meio da div com imagem de fundo */
+}
+
+.titulo-criar-conta h1 {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ font-family: 'Forum';
+ text-transform: uppercase;
+ font-size: 22px;
+ padding-top: 40px;
+ padding-bottom: 30px;
+ color: #1E1E1E;
+}
+
+.titulo-criar-conta h2 {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ font-family: 'Forum';
+ font-size: 17px;
+ padding-bottom: 30px;
+ color: #1E1E1E;
+
+}
+
+.label-form-criar {
+ display: flex;
+ flex-direction: column;
+ justify-content: left;
+ align-items: left;
+ font-family: 'Roboto';
+ padding-bottom: 13px;
+ font-weight: bold;
+ gap: 5px;
+}
+
+.input-form-criar {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 5px;
+ height: 1.3rem;
+ border-color: rgba(105, 105, 105, 0.384);
+ font-family: 'Roboto';
+ padding: 2px;
+ width: 300px;
+ 
+}
+
+.botao-criar-conta button{
+ display: block;
+ margin-right: auto;
+ margin-left: auto;
+ width: 300px;
+ height: 40px;
+ border: none;
+ border-radius: 5px;
+ background-color: #D71A1A;
+ font-family: 'Forum';
+ color: #FFF;
+ font-size: 20px;
+ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.30);
+ margin-bottom: 20px;
+ margin-top: 10px;
+ cursor: pointer;
+}

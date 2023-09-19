@@ -22,7 +22,7 @@ function Navbar() {
         <li>
           <Link to='/add'>Adicionar Veículo</Link>
         </li>
-        <div className='botao-login'><button><Link to='/login'>Login</Link></button></div>
+        <div className='botao-login'><button><Link to='/criar-conta'>Login</Link></button></div>
       </ul>
       </nav>
   )

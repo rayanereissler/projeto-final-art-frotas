@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import './CriarConta.css';
 
 function CriarConta() {
     const navigate = useNavigate();
@@ -12,31 +13,39 @@ function CriarConta() {
     };
 
     return (
-        <div>
-            <h2>Criar Conta</h2>
-            <form onSubmit={handleCreateAccount}>
-                <label>
-                    Nome de Usuário:
-                    <input
-                        type="text"
-                        value={usuario.nomeUsuario}
-                        onChange={(e) => setUsuario({ ...usuario, nomeUsuario: e.target.value })}
-                        required
-                    />
-                </label>
-                <br />
-                <label>
-                    Senha:
-                    <input
-                        type="password"
-                        value={usuario.senha}
-                        onChange={(e) => setUsuario({ ...usuario, senha: e.target.value })}
-                        required
-                    />
-                </label>
-                <br />
-                <button type="submit">Criar Conta</button>
-            </form>
+        <div className='div-pai-criar'>
+            <div className='element-pai'>
+                <form onSubmit={handleCreateAccount}>
+                    <div className='titulo-criar-conta'>
+                        <h1>art frotas</h1>
+                        <h2>Digite o seu nome de usuário e senha:</h2>
+                    </div>
+
+
+                    <div>
+                        <label className="label-form-criar">
+                            Nome de Usuário:
+                            <input className="input-form-criar"
+                                type="text"
+                                value={usuario.nomeUsuario}
+                                onChange={(e) => setUsuario({ ...usuario, nomeUsuario: e.target.value })}
+                                required
+                            />
+                        </label>
+                        <label className="label-form-criar">
+                            Senha:
+                            <input className="input-form-criar"
+                                type="password"
+                                value={usuario.senha}
+                                onChange={(e) => setUsuario({ ...usuario, senha: e.target.value })}
+                                required
+                            />
+                        </label>
+                    </div>
+
+                    <div className='botao-criar-conta'><button type="submit">Criar Conta</button></div>
+                </form>
+            </div>
         </div>
     );
 }
