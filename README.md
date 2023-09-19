@@ -1,10 +1,6 @@
-<h1 align="center">
-  <img src="https://github.com/rayanereissler/projeto-final-art-frotas/assets/94932481/0e6809f4-c410-4039-9a56-a3b0cddd3d59"
- >
-<br>
-  
-  <p>ART FROTAS</p>
-</h1>
+
+  <img align="center" src="https://github.com/rayanereissler/projeto-final-art-frotas/assets/94932481/56b2f5ba-ca5a-4232-8064-d09ad892593d" >
+<h1> ART FROTAS</h1>
 
 
 
