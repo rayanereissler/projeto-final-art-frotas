@@ -9,7 +9,7 @@ import Chapeu from '../../assets/imagens/formatura.png';
 function Sobre() {
  return (
   <div>
-   <div className='retangulo-pai'>
+   <div className='retangulo-pai-sobre'>
     <div className='div-um'>
      <div>
       <div className='foto-pessoal'><img src={FotoPessoal} /></div>

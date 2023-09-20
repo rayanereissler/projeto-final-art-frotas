@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import FaixaCarros from '../../assets/imagens/faixa-decor.png';
 import './Login.css';
 
 function CriarConta() {
@@ -15,10 +14,7 @@ function CriarConta() {
 
     return (
         <div className="retangulo-pai">
-            <div className="faixa-carro">
-                    <img src={FaixaCarros} />
-                </div>
-            <div className="retangulo-filho">
+            <div className="retangulo-filho-login">
                 <h2>ART Frotas</h2>
                 <h3>Faça seu cadastro abaixo</h3>
                 <form onSubmit={handleCreateAccount}>
@@ -42,7 +38,7 @@ function CriarConta() {
                                 required
                             />
                         </label>
-                        
+
                         <label>
                             Senha:
                             <input
@@ -53,7 +49,7 @@ function CriarConta() {
                             />
                         </label>
                     </div>
-                    
+
                     <div className="botao-fazer-login"><button type="submit">Criar Conta</button></div>
                 </form>
             </div>

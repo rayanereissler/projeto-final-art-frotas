@@ -4,7 +4,7 @@
  font-family: 'Forum';
 }
 
-.div.pai {
+.div-pai {
  display: flex;
  flex-direction: column;
  
@@ -17,9 +17,7 @@
  align-items: center;
  padding: 10px 40px 10px 40px;
  background-color: #D71A1A;
- margin-top: 4rem;
- /*só pra separar do nav*/
-
+  
 }
 
 .logo-menor,

@@ -3,7 +3,7 @@
  padding: 0;
 }
 
-.retangulo-pai {
+.retangulo-pai-sobre {
  display: flex;
  flex-direction: row;
  justify-content: center;

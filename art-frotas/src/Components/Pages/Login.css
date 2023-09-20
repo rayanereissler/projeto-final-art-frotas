@@ -6,33 +6,19 @@
 .retangulo-pai {
  display: flex;
  flex-direction: column;
- position: relative;
-}
+ background-image: url(../../assets/imagens/faixa-decor.png);
+ }
 
-.faixa-carro {
- display: flex;
- position: relative;
- margin: 0;
- padding: 0;
-}
-
-.faixa-carro img {
- width: 100%;
- height: auto;
-
-}
-
-
-.retangulo-filho {
+.retangulo-filho-login {
  display: flex;
  flex-direction: column;
  justify-content: center;
  align-items: center;
- position: absolute;
  background-color: #fff;
  padding: 40px 120px 40px 120px;
  border-radius: 10px;
  text-align: center;
+ margin: 60px 15% 60px 15%;
 }
 
 .retangulo-filho h2 {
@@ -97,7 +83,7 @@ input {
 }
 
 @media (max-width:698px) {
- .retangulo-filho h2 {
+ .retangulo-filho-login h2 {
    font-size: 13px;
  }
 
@@ -114,8 +100,9 @@ input {
   font-size: 1rem;
  }
  
- .retangulo-filho {
+ .retangulo-filho-login {
   padding: 40px 60px 40px 60px;
   border-radius: 10px;
+  margin: 40px 20px 40px 20px;
  }
 }
