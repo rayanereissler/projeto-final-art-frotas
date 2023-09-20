@@ -13,7 +13,7 @@
 
 
 
-<img width="750" alt="LOGO-" src="https://github.com/AmigoBicho/Projeto-Amigo-Bicho/assets/94932481/3965c6f0-d69f-4a68-a05e-d4e2db1f9e9e">
+<img width="750" alt="LOGO-" src="https://github.com/rayanereissler/projeto-final-art-frotas/assets/94932481/2666f15d-db44-49c8-b72e-0e5a5fe33bff">
 
 ## Tecnologias &#128126;
 
@@ -48,5 +48,5 @@ As principais características do site são:
 
 ## Quer testar? basta clicar aqui! &#128105;&#8205;&#128187;
 
-- [Link executável](-)
+- [Link executável](https://projeto-final-art-frotas.vercel.app)
 
